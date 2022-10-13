@@ -1,0 +1,71 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye","Ciao"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help","Okay","Alright","Great","Ok","kk","k"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m Agniveer, your bot assistant", "I'm Agniveer, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Agniveer.", "I'm Agniveer!", "Just call me as Agniveer"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "army",
+    "patterns": ["What is Indian Army","What is Army","Indian Army","Tell me about Indian Army"],
+    "responses": ["The Indian Army is the land-based branch and the largest component of the Indian Armed Forces. The President of India is the Supreme Commander of the Indian Army, and its professional head is the Chief of Army Staff, who is a four-star general."]
+    },
+    {"tag": "coas",
+    "patterns": ["Who is the Chief of Army Staff?","Who is the current coas?","Who is the current general?","Who is the current chief of army?","coas"],
+    "responses": ["The current general is Gen. Manoj Pande.","The current COAS is Gen Manoj Pande.","General Manoj Pande","The current Chief of Army Staff is Gen. Manoj Pande."]
+    },
+    {"tag": "cds",
+    "patterns": ["Who is the Chief of Defence Staff?","Who is the current chief of defense staff?","Who is the current cds?","Who is the current chief of defence forces?","cds"],
+    "responses": ["The current CDS is Gen Anil Chouhan","The current Chief of Defence Staff is Gen Anil Chouhan","General Anil Chouhan"]
+    },
+    {"tag": "commands",
+    "patterns": ["How many commands are there?","What are the army commands?","Tell me about army commands","What are the army commands"],
+    "responses": ["There are 7 Army Commands in India viz. Northern Command, Southern Command, Eastern Command, Western Command, Central Command, South Western Command & Training Command"]
+    },
+    {"tag": "northern",
+    "patterns": ["Where is Northern Command?","Tell me about northern command","Where is North Command?"],
+    "responses": ["The Northern Command is located at Udhampur","It is an army command at Udhampur."]
+    },
+    {"tag": "southern",
+    "patterns": ["Where is Southern Command?","Tell me about southern command","Where is South Command?"],
+    "responses": ["The Southern Command is located at Pune","It is an army command at Pune."]
+    },
+    {"tag": "western",
+    "patterns": ["Where is Western Command?","Tell me about western command","Where is West Command?"],
+    "responses": ["The Western Command is located at Chandi Mandir","It is an army command at Chandi Mandir."]
+    },
+    {"tag": "eastern",
+    "patterns": ["Where is Eastern Command?","Tell me about eastern command","Where is East Command?"],
+    "responses": ["The Eastern Command is located at Kolkata","It is an army command at Kolkata."]
+    },
+    {"tag": "southwestern",
+    "patterns": ["Where is South Western Command?","Tell me about south western command","Where is South West Command?"],
+    "responses": ["The South Western Command is located at Jaipur","It is an army command at Jaipur."]
+    },
+    {"tag": "training",
+    "patterns": ["Where is Training Command?","Tell me about training command","Where is army training Command?"],
+    "responses": ["The Training Command is located at Shimla","It is an army training command at Shimla."]
+    },
+    {"tag": "howtojoin",
+    "patterns": ["How can i join army?","How to join indian army?","How to join?","Joining ways to indian army"],
+    "responses": ["You can join army through NDA, TES, CDSE, TGC, IMA(DE). For more information visit joinindianarmy.nic.in.","You can join through NDA, TES, CDSE, TGC, IMA(DE). For more information visit joinindianarmy.nic.in.","You can apply through NDA, TES, CDSE, TGC, IMA(DE). For more information visit joinindianarmy.nic.in."]
+    }
+]
+}
